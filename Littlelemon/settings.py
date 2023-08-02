@@ -50,6 +50,8 @@ INSTALLED_APPS = [
     
     #third party apps
     'rest_framework',
+    'rest_framework.authtoken',
+    'djoser',
 ]
 
 MIDDLEWARE = [
@@ -139,3 +141,6 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+#third party apps settings
+DJOSER = {"USER_ID_FIELD":"username"}
