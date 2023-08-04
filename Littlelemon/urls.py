@@ -33,7 +33,7 @@ urlpatterns = [
     path('restaurant/', include('restaurant.urls')),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     path('api/', include('restaurant.urls')),
-    path('restaurant/booking/', include(router.urls)),
+    path('restaurant/', include(router.urls)),
     path('', include(router.urls)),
     path('api-token-auth/', obtain_auth_token),
     path('auth/', include('djoser.urls')),
