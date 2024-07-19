@@ -6,55 +6,14 @@ This project is the final capstone for the Coursera Backend Development speciali
 
 ### User API Endpoints
 
-- `GET` - Show all current users: http://127.0.0.1:8000/auth/users
-- `POST` - Create a new user (fields: username and password): http://127.0.0.1:8000/auth/users/
-
-- `GET` - Show user where id is 1: http://127.0.0.1:8000/auth/users/1
-
-- `DELETE` - Delete user where id is 1: http://127.0.0.1:8000/auth/users/1
-
-
-### Token Generating API Endpoints
-
-- `POST` - Create the token for the user whose details are sent in the body:
-http://127.0.0.1:8000/api-token-auth/
-
-
-### Menu API Endpoints
-
-- `GET` - Show all menu items: http://127.0.0.1:8000/api/menu/
-
-- `POST` - Create a new menu item (fields: title, price, inventory):
-http://127.0.0.1:8000/api/menu/
-
-- `GET` - Show menu item with id 1: http://127.0.0.1:8000/api/menu/1
-
-- `DELETE` - Delete menu item with id 1: 
-Here's a README.md file for your final capstone project:
-
-
-# Final Capstone Project
-
-This project is the final capstone for the Coursera Backend Development specialization. It includes user authentication, menu management, and booking management functionalities.
-
-## API Endpoints
-
-### User API Endpoints
-
 - `GET` - Show all current users:
 http://127.0.0.1:8000/auth/users
-
-
 
 - `POST` - Create a new user (fields: username and password):
 http://127.0.0.1:8000/auth/users/
 
-
-
 - `GET` - Show user where id is 1:
 http://127.0.0.1:8000/auth/users/1
-
-
 
 - `DELETE` - Delete user where id is 1:
 http://127.0.0.1:8000/auth/users/1
@@ -71,14 +30,11 @@ http://127.0.0.1:8000/api-token-auth/
 - `GET` - Show all menu items:
 http://127.0.0.1:8000/api/menu/
 
-
 - `POST` - Create a new menu item (fields: title, price, inventory):
 http://127.0.0.1:8000/api/menu/
 
-
 - `GET` - Show menu item with id 1:
 http://127.0.0.1:8000/api/menu/1
-
 
 - `DELETE` - Delete menu item with id 1:
 http://127.0.0.1:8000/api/menu/1
